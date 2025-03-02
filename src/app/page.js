@@ -1,6 +1,5 @@
 'use client';
 import Image from "next/image";
-import { Greet } from '../../../greet';
 import Navbar from "@/app/components/Navbar";
 import Welcome from "@/app/components/Welcome";
 import EnhancedTable from "./components/Table";
