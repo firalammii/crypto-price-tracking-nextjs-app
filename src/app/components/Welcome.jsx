@@ -27,6 +27,7 @@ const Welcome = () => {
 				</p>
 				<form onSubmit={handleSubmit}>
 					<Autocomplete
+						className='outline-none border'
 						multiple
 						filterSelectedOptions
 						size='small'
