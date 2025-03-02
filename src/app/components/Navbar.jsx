@@ -1,8 +1,7 @@
 "use client";
-import React from 'react'
 import { useData } from '../context/DataContext';
 import BalconyIcon from '@mui/icons-material/Balcony';
-import { Autocomplete, Button, FormControl, IconButton, InputLabel, MenuItem, Select, TextField, Typography } from '@mui/material';
+import { Button, Typography } from '@mui/material';
 import { DarkMode, LightMode } from '@mui/icons-material';
 import useGetCoin from '@/hooks/useFetchCoinData';
 
