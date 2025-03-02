@@ -2,13 +2,10 @@
 import { unstable_noStore as noStore } from 'next/cache';
 import axios from 'axios';
 import {createContext, useContext, useEffect, useState} from 'react';
+import { options, url } from '@/data/configData';
 
 export const Context = createContext();
-export const url = 'https://api.coingecko.com/api/v3/coins/markets';
-export const options = {
-	method: 'GET',
-	headers: { accept: 'application/json', 'x-cg-demo-api-key': 'CG-z3U3g6ctZ4D42WhuVFZuMNzE' }
-};
+
 
 const DataContext = ({children}) => {
 	const [data, setData] = useState([]);

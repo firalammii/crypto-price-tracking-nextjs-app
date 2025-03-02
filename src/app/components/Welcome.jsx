@@ -23,23 +23,23 @@ const Welcome = () => {
 					Welcome to Crypto app tracker
 				</h1>
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nulla nemo optio voluptatum ratione dolor?
-					</p>
+					This crypto currencies price tracker app gives nor much details however simple and sweet for the purpose of exam only
+				</p>
 				<form onSubmit={handleSubmit}>
 					<Autocomplete
-					multiple
-					filterSelectedOptions
-					size='small'
+						multiple
+						filterSelectedOptions
+						size='small'
 						id="searchFilter"
 						options={coins}
 						getOptionLabel={(option) => option.name}
-						onChange={(e,val)=>setInput(val)}
+						onChange={(e, val) => setInput(val)}
 						renderInput={(params) => (
 							<TextField
 								{...params}
 								label="Filter Search Option"
 								placeholder="Search"
-								
+
 							/>
 						)}
 					/>

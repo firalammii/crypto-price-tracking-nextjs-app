@@ -1,6 +1,7 @@
 // import useData from './useData';
 
-import { options, url, useData } from "@/app/context/DataContext";
+import { useData } from "@/app/context/DataContext";
+import { options, url } from "@/data/configData";
 import axios from "axios";
 
 const useGetCoin = () => {

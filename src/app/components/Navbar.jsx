@@ -4,7 +4,7 @@ import { useData } from '../context/DataContext';
 import BalconyIcon from '@mui/icons-material/Balcony';
 import { Autocomplete, Button, FormControl, IconButton, InputLabel, MenuItem, Select, TextField, Typography } from '@mui/material';
 import { DarkMode, LightMode } from '@mui/icons-material';
-import useGetCoin from '@/hooks/useGetCoin';
+import useGetCoin from '@/hooks/useFetchCoinData';
 
 const Navbar = () => {
 	const { setCurrency, currency, darkMode, setDarkMode, } = useData();
